@@ -1,0 +1,100 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+.poppins {font-family: 'Poppins', sans-serif;}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.para {font-family: 'PT Serif', serif;
+}
+
+.mydiv {
+  background-image: url(/images/background2.png);
+  background-image: cover;
+  background-size: cover;
+}
+
+.stick {
+  background-image: url(/images/sticker-crop_1.png);
+  background-size:contain;
+
+  background-repeat: no-repeat;
+  height:30rem;
+
+}
+
+.st {
+    display: block;
+    opacity: 0;
+    background: rgba(0,0,0,.8);
+    height:121px;
+}
+
+.stick:hover .st {
+    opacity: 1;
+}
+
+.sticky {
+  background-image: url(/images/tshirt2.png);
+  background-size:contain;
+
+  background-repeat: no-repeat;
+  height:30rem;
+
+
+}
+
+.stroke {
+  background-image: url(/images/mug-2.png);
+  background-size:contain;
+
+  background-repeat: no-repeat;
+  height:30rem;
+}
+
+
+
+
+
+
+.dots {
+  background-color: #f8aca9;
+}
+
+.events {
+  background-color: #59c4c0;
+}
+
+.amplify {
+  background-color: #b38bbf;
+}
+
+.november {color: #59c4c0;}
+
+.amp {color: #b38bbf;}
+
+.pinky {color: #f8aca9;}
+
+h2 {
+  animation: fade 3s linear;
+  animation-play-state: paused;
+}
+
+h2:hover {
+  animation-play-state:running;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes fade {
+0% {color:white;
+}
+50% {color:#59c4c0;
+}
+75% {color:#b38bbf}
+100% {color:white;
+  } }
