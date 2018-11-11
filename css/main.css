@@ -19,7 +19,7 @@ h1 {
 }
 
 .stick {
-  background-image: url(/images/sticker-crop_1.png);
+  background-image: url(/images/computer-1.png);
   background-size:contain;
 
   background-repeat: no-repeat;
@@ -39,7 +39,7 @@ h1 {
 }
 
 .sticky {
-  background-image: url(/images/tshirt2.png);
+  background-image: url(/images/shirt-1.png);
   background-size:contain;
 
   background-repeat: no-repeat;
@@ -49,7 +49,7 @@ h1 {
 }
 
 .stroke {
-  background-image: url(/images/mug-2.png);
+  background-image: url(/images/phone-1.png);
   background-size:contain;
 
   background-repeat: no-repeat;
@@ -79,6 +79,7 @@ h1 {
 
 .pinky {color: #f8aca9;}
 
+/*
 h2 {
   animation: fade 3s linear;
   animation-play-state: paused;
@@ -98,3 +99,44 @@ h2:hover {
 75% {color:#b38bbf}
 100% {color:white;
   } }
+*/
+
+
+
+/*POPUP*/
+
+.eventpop {
+  background:rgba(0,0,0,.8)
+}
+
+.modal {
+  display:none;
+  position:fixed;
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+
+}
+
+
+}
+.modal_dialog{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.modal_content{
+  width:60%;
+  min-width: 300px;
+  background:rgba(255, 255, 255, 1);
+}
+
+.modal:target{
+  display: table;
+}
+
+.modal_image{
+  display:block;
+  margin:auto;
+}
